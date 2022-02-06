@@ -64,10 +64,19 @@ p {
 }
 
 .page-header {
-  min-height: 40mm;
-  margin-bottom: 2mm;
-  padding: 7mm 0mm 5mm 0mm;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5mm;
+  padding-top: 10mm;
 }
+
+.page-header-content {
+  margin-bottom: 5mm;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .page-header img {
   border-radius: 50%;
   width: 30mm;
@@ -102,7 +111,7 @@ p {
 }
 .underscore {
   height: 1mm;
-  width: 115mm;
+  width: 20mm;
   margin-top: 2mm;
   border-radius: 2mm;
   background-color: #e55754;
@@ -114,7 +123,7 @@ p {
 
 .page-section .divider {
   width: 1mm;
-  margin-top: 10mm;
+  /* margin-top: 10mm; */
   margin-bottom: 5mm;
   border-radius: 2mm;
   background-color: #cbcbcb;
@@ -140,14 +149,18 @@ p {
 
 .page-section .left {
   /* border: 1px dashed #000000; */
-  min-width: 170mm;
-  max-width: 170mm;
+  min-width: 175mm;
+  max-width: 175mm;
+  /* padding-top: 15mm; */
+  padding-bottom: 15mm;
 }
 .page-section .right {
   /* border: 1px dashed #000000; */
   flex-grow: 1;
-  min-width: 75mm;
-  max-width: 75mm;
+  min-width: 70mm;
+  max-width: 70mm;
+  /* padding-top: 15mm; */
+  padding-bottom: 15mm;
 }
 .page-section .section {
   padding: 0mm 7mm 1mm 7mm;
