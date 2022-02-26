@@ -1,1 +1,1 @@
-﻿# Resume - Priyanka Dhananjay Nazare
+﻿# Resume - Priyanka Nazare
